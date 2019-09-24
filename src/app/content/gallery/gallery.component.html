@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>Gallery</h1>
+    <div class="slider">
+        <img src="{{currentImg}}" alt="">
+    </div>
+    <div class="btns">
+        <button (click)="prev()">prev</button>
+        <button (click)="next()">next</button>
+    </div>
+    <div class="items">
+        <!-- item -->
+        <div *ngFor="let item of cards" class="item">
+            <h5 class="title">
+                {{item.title}}
+            </h5>
+            <div class="descr">
+                <p>
+                {{item.text}}
+                </p>
+            </div>
+        </div>
+      
+    </div>
+</div>

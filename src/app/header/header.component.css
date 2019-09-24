@@ -1,0 +1,22 @@
+header{
+    background-color: orange;
+}
+
+.menu{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.menu li a{
+    padding: 15px;
+}
+
+.menu li a.active{
+    background-color: lightgreen;
+}
+

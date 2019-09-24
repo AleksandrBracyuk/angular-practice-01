@@ -1,0 +1,32 @@
+.slider{
+    position:relative;
+        height: 400px;
+        text-align:center;
+        overflow:hidden;
+}
+.slider img{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    max-width:100%;
+}
+
+.btns{
+    text-align: center;
+    padding: 20px;
+}
+.btns button{
+    padding: 20px;
+}
+.items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    width:300px;
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+}
